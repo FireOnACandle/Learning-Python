@@ -1,0 +1,21 @@
+i = 0 
+
+print("The Basics")
+print()
+
+strng=input("Enter a String: ")
+first_chars=int(input("Print first ___ characters: "))
+print()
+
+if first_chars <= len(strng):
+
+ while i < first_chars:
+  print(strng[i]) 
+  i=i+1
+
+else:
+  print("String contains only ", len(strng), "items.")
+  print("Cannt output ", first_chars, " items.")
+
+print()
+print("Aaaaaa")
