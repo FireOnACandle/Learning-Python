@@ -1,6 +1,6 @@
 x = 0 
 
-print("The Basics")
+print("String Testing")
 print()
 
 strng=input("Enter a String: ")
