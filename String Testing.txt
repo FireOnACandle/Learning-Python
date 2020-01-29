@@ -1,4 +1,4 @@
-i = 0 
+x = 0 
 
 print("The Basics")
 print()
@@ -9,13 +9,13 @@ print()
 
 if first_chars <= len(strng):
 
- while i < first_chars:
-  print(strng[i]) 
-  i=i+1
+ while x < first_chars:
+  print(strng[x]) 
+  x=x+1
 
 else:
   print("String contains only ", len(strng), "items.")
-  print("Cannt output ", first_chars, " items.")
+  print("Can't output ", first_chars, " items.")
 
 print()
 print("Aaaaaa")
