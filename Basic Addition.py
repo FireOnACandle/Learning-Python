@@ -1,4 +1,4 @@
-print ("Basic Addition")
+print("Basic Addition")
 print() 
 
 x = int (input ("Enter the first number :"))
